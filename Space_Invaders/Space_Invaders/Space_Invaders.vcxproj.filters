@@ -15,39 +15,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Coord.h">
+    <ClInclude Include="Coord.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\ExtraTerrestre.h">
+    <ClInclude Include="ExtraTerrestre.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Laser.h">
+    <ClInclude Include="Laser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Martien.h">
+    <ClInclude Include="Martien.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Vaisseau.h">
+    <ClInclude Include="Vaisseau.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Coord.cpp">
+    <ClCompile Include="Coord.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\ExtraTerrestre.cpp">
+    <ClCompile Include="ExtraTerrestre.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Laser.cpp">
+    <ClCompile Include="Laser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Martien.cpp">
+    <ClCompile Include="Martien.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\SpaceMain.cpp">
+    <ClCompile Include="SpaceMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Vaisseau.cpp">
+    <ClCompile Include="Vaisseau.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

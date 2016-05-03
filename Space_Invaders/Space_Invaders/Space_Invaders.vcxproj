@@ -10,6 +10,21 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Coord.h" />
+    <ClInclude Include="ExtraTerrestre.h" />
+    <ClInclude Include="Laser.h" />
+    <ClInclude Include="Martien.h" />
+    <ClInclude Include="Vaisseau.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Coord.cpp" />
+    <ClCompile Include="ExtraTerrestre.cpp" />
+    <ClCompile Include="Laser.cpp" />
+    <ClCompile Include="Martien.cpp" />
+    <ClCompile Include="SpaceMain.cpp" />
+    <ClCompile Include="Vaisseau.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{9DDA057F-37E7-4209-A44B-7CE2D2F72B6E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -77,21 +92,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Coord.h" />
-    <ClInclude Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\ExtraTerrestre.h" />
-    <ClInclude Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Laser.h" />
-    <ClInclude Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Martien.h" />
-    <ClInclude Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Vaisseau.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Coord.cpp" />
-    <ClCompile Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\ExtraTerrestre.cpp" />
-    <ClCompile Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Laser.cpp" />
-    <ClCompile Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Martien.cpp" />
-    <ClCompile Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\SpaceMain.cpp" />
-    <ClCompile Include="..\..\..\Users\ddubreui\OneDrive\Documents\ISI\C++\TP\Vaisseau.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
