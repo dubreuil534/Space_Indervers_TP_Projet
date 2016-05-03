@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 
-	cout << "Tes2t";
+	cout << "Test JC";
 
 
 	return 0;
