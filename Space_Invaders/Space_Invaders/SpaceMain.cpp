@@ -10,7 +10,9 @@ using namespace std;
 int main()
 {
 
-	cout << "Test JC";
+	Vaisseau monVaisseau;
+
+
 
 
 	return 0;
