@@ -1,6 +1,7 @@
 #include <iostream>
-#include <conio.h>
 using namespace std;
+#include<stdio.h>
+#include<conio.h>
 
 #include "Coord.h"
 #include "ExtraTerrestre.h"
@@ -11,11 +12,13 @@ using namespace std;
 int main(){
 
 	Vaisseau monVaisseau;
+	Laser monLaser;
 	int monVaisseauX = 20;
 
-	while(true){
+	while (true){
 		char touche = _getch();
 
+		// Déplacement
 		if (touche == 'l' || touche == 'k'){
 			if (touche == 'l' && monVaisseauX < 40){
 				monVaisseauX++;
@@ -26,9 +29,14 @@ int main(){
 				monVaisseau.modifierPosition(touche);
 			}
 		}
+		// Lancer laser
+		else if (touche == 'a'){
+			monLaser.startLaser(monVaisseauX);
+		}
+		monLaser.moveLaser();
 	}
-	
-
 
 	return 0;
+
+
 }
