@@ -13,7 +13,7 @@ int main()
 {
 
 	Vaisseau monVaisseau;
-	Laser lancerLaser;
+	Laser monLaser;
 	cout << endl;
 
 	while (true){
@@ -29,9 +29,17 @@ int main()
 
 
 
-			lancerLaser.startLaser(29);
+			monLaser.startLaser(29);
 		}
 	}
+
+	/*
+	
+	if (_kbhit() != 0){
+		touche = _getch();
+	}
+	
+	*/
 
 	return 0;
 }
