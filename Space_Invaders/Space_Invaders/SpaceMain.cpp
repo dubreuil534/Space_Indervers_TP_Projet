@@ -9,37 +9,41 @@ using namespace std;
 #include "Martien.h"
 #include "Vaisseau.h"
 
-int main()
-{
+int main(){
 
 	Vaisseau monVaisseau;
 	Laser monLaser;
-	cout << endl;
+	int monVaisseauX = 20;
 
 	while (true){
 		char touche = _getch();
 
-
+		// Déplacement
 		if (touche == 'l' || touche == 'k'){
-
+			if (touche == 'l' && monVaisseauX < 40){
+				monVaisseauX++;
+				monVaisseau.modifierPosition(touche);
+			}
+			else if (touche == 'k' && monVaisseauX > 0){
+				monVaisseauX--;
 			monVaisseau.modifierPosition(touche);
-
+			}
 		}
+		// Lancer laser
 		else if (touche == 'a'){
-
-
-
-			monLaser.startLaser(29);
+			monLaser.startLaser(monVaisseauX);
 		}
-	}
 
 	/*
 	
 	if (_kbhit() != 0){
 		touche = _getch();
+		monLaser.moveLaser();
 	}
-	
+
 	*/
 
 	return 0;
+
+
 }
