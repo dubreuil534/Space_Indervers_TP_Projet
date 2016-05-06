@@ -15,6 +15,7 @@
     <ClInclude Include="ExtraTerrestre.h" />
     <ClInclude Include="Laser.h" />
     <ClInclude Include="Martien.h" />
+    <ClInclude Include="UIKit.h" />
     <ClInclude Include="Vaisseau.h" />
   </ItemGroup>
   <ItemGroup>
@@ -22,7 +23,9 @@
     <ClCompile Include="ExtraTerrestre.cpp" />
     <ClCompile Include="Laser.cpp" />
     <ClCompile Include="Martien.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="SpaceMain.cpp" />
+    <ClCompile Include="UIKit.cpp" />
     <ClCompile Include="Vaisseau.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
