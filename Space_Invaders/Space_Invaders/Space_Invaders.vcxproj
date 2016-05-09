@@ -11,20 +11,25 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bomb.h" />
     <ClInclude Include="Coord.h" />
     <ClInclude Include="ExtraTerrestre.h" />
     <ClInclude Include="Laser.h" />
     <ClInclude Include="Martien.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Timer.h" />
     <ClInclude Include="UIKit.h" />
     <ClInclude Include="Vaisseau.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Bomb.cpp" />
     <ClCompile Include="Coord.cpp" />
     <ClCompile Include="ExtraTerrestre.cpp" />
     <ClCompile Include="Laser.cpp" />
     <ClCompile Include="Martien.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="SpaceMain.cpp" />
+    <ClCompile Include="Timer.cpp" />
     <ClCompile Include="UIKit.cpp" />
     <ClCompile Include="Vaisseau.cpp" />
   </ItemGroup>
@@ -75,6 +80,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
